@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Tic-Tac-Toe with React, XState, and Styled-Components
+
+This project is a Tic-Tac-Toe game implemented using React, XState for state management, and styled-components for styling. The game features a responsive and visually appealing UI, with a state machine managing the game logic.
+
+https://github.com/user-attachments/assets/3c296272-831a-42fc-86df-8eedbf425b93
+
+State Machine Design: The game uses XState's state machine to manage different states of the Tic-Tac-Toe game. The states include idle, playing, checkingWin, won, and draw. This design ensures a clear and maintainable structure for handling game logic and transitions.
+
+Responsive Design: The game board and buttons are styled to be responsive using styled-components. The grid layout adjusts to different screen sizes, and the buttons are styled with gradients and hover effects for a modern look.
+
+Unit Tests: We use Jest and React Testing Library to test the state machine and React components. Tests cover state transitions, game logic, and UI interactions.
+
 ## Getting Started
 
 First, run the development server:
