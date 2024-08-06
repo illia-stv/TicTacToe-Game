@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 # Tic-Tac-Toe with React, XState, and Styled-Components
 
 This project is a Tic-Tac-Toe game implemented using React, XState for state management, and styled-components for styling. The game features a responsive and visually appealing UI, with a state machine managing the game logic.
