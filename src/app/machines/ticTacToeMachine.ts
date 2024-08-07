@@ -58,12 +58,12 @@ const ticTacToeMachine = createMachine({
             ],
         },
         won: {
-        on: {
-            RESET: {
-                target: 'idle',
-                actions: 'resetGame'
-            },
-        },
+          on: {
+              RESET: {
+                  target: 'idle',
+                  actions: 'resetGame'
+              },
+          },
         },
         draw: {
             on: {
